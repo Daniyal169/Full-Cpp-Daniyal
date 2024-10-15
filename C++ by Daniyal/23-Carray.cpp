@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+
     char arr[100] = "Daniyal";
 
     int i = 0;

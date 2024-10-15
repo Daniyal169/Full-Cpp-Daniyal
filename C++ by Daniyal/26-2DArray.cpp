@@ -4,6 +4,10 @@
 using namespace std;
 int main()
 {
+    // --NOTE--
+    // Variable-length arrays may cause errors in some compilers.
+    // If your compiler does not support this, use dynamic memory allocation (e.g., 'new') or a fixed-size array.
+
     int n, m;
     cout << "ENter num of rows and column :";
     cin >> n >> m;

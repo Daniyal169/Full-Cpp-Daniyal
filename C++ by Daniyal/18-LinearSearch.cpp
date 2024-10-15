@@ -22,6 +22,10 @@ int main()
     cout << "Enter size of array :";
     cin >> n;
 
+    // --NOTE--
+    // Variable-length arrays may cause errors in some compilers.
+    // If your compiler does not support this, use dynamic memory allocation (e.g., 'new') or a fixed-size array.
+
     int arr[n];
     for (int i = 0; i < n; i++)
     {

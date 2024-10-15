@@ -5,6 +5,11 @@ using namespace std;
 
 int main()
 {
+
+    // --NOTE--
+    // Variable-length arrays may cause errors in some compilers.
+    // If your compiler does not support this, use dynamic memory allocation (e.g., 'new') or a fixed-size array.
+
     int n;
     cout << "Enter size of array :";
     cin >> n;

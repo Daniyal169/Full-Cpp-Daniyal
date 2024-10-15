@@ -5,6 +5,10 @@ using namespace std;
 
 int main()
 {
+    // --NOTE--
+    // Variable-length arrays may cause errors in some compilers.
+    // If your compiler does not support this, use dynamic memory allocation (e.g., 'new') or a fixed-size array.
+
     int n1, n2, n3;
     cin >> n1 >> n2 >> n3; // first matrix column will be eq to 2nd rows
 
